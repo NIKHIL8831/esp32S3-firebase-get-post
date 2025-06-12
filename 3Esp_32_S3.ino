@@ -6,8 +6,8 @@ const char* ssid = "iPhone";
 const char* password = "password883";
 
 // Firebase credentials
-#define API_KEY "AIzaSyDatSpnWpeTRWiPzm9-ovcDsWIdphNJDhk"
-#define DATABASE_URL "https://esp32s3-data-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define API_KEY "Your api key "
+#define DATABASE_URL "Your data base url"
 
 // Firebase objects
 FirebaseData fbdo;
@@ -15,8 +15,8 @@ FirebaseAuth auth;
 FirebaseConfig config;
 
 // User credentials
-#define USER_EMAIL "ece21010304027nikhil@gmail.com"
-#define USER_PASSWORD "Nikhil"
+#define USER_EMAIL " your email "
+#define USER_PASSWORD "your password"
 
 void setup() {
   Serial.begin(115200);
